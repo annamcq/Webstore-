@@ -1,0 +1,137 @@
+html {
+    --primary-col: #ffffff;
+    --primary-alt: #999999;
+    --primary-on: #333333;
+    --secondary-col: #666666;
+    --secondary-alt: #999999;
+    --secondary-on: #333333;
+    --pad-and-gap: 1em
+    
+}
+
+body {
+    font-family: @import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+    font-family: 'Jura', sans-serif;
+    font-size: 1em;
+    line-height: 1.7em;
+    background-color: #333333;
+    color: #999999;
+    list-style-type: disc;
+
+}
+
+
+.logo {
+    align-content: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    padding-left: 13em;
+}
+
+
+.toplist {
+margin-left: -1.3em;
+}
+
+.hoodielist {
+    margin-left: -1em;
+}
+
+.main-menu {
+    text-align: left;
+    padding-left: 7em;
+    
+}
+header {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.products {
+    padding-right: 1em;
+    padding left: 1em;
+}
+
+.page-header {
+    padding-right: 1em;
+    padding-right: 1em;
+}
+
+.page-footer {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hoodies {
+    padding-bottom: 2em;
+}
+
+.greyhoodie {
+    padding-left: 0.2em;
+    padding-top: 2em;
+    
+}
+
+.imagespace {
+    margin-right: 5em;
+    margin-left: -1.5em;
+    padding-bottom: 2em;
+   
+}
+
+.imagespace2 {
+    margin-right: 5em;
+    margin-left: 0.2em;
+    padding-bottom: 2em;
+}
+
+.buynow {
+    margin-left: 5.5em;
+}
+
+.buynow2 {
+    margin-left: 0.5em;
+}
+
+.bottoms {
+    padding-bottom: 2em;
+}
+
+.sweats {
+    padding-bottom: 2em;
+}
+
+.sock {
+    padding-bottom: 5em ;
+}
+
+.copyright {
+    font-size: x-small;
+    font-style: italic;
+    text-align: center;
+}
+
+.line {
+    border-bottom: 2px solid grey
+    display: block;
+}
+
+@media screen and (max-width 580px) {
+    body {
+        background-image: linear-gradient(grey, black);
+    }
+}
+@media screen and (min-width: 440px) {
+    body {
+        background-image: linear-gradient(grey, black)
+    }
+}
